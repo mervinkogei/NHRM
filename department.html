@@ -7,6 +7,10 @@
 
     <link href="https://fonts.googleapis.com/css?family=Amatic+SC:400,700|Work+Sans:300,400,700" rel="stylesheet">
     <link rel="stylesheet" href="fonts/icomoon/style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+    <link rel="manifest" href="./favicon/site.webmanifest">
 
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/magnific-popup.css">
@@ -56,24 +60,24 @@
                     <!-- d-lg-none -->
                     <div class="d-inline-block  ml-md-0 mr-auto py-3"><a href="#" class="site-menu-toggle js-menu-toggle"><span class="icon-menu h3"></span></a></div>
                      <!-- d-lg-block -->
-                    <ul class="site-menu js-clone-nav d-none">
-                      <li>
+                     <ul class="site-menu js-clone-nav d-none ">
+                      <li class="active">
                         <a href="index.html">Home</a>
                       </li>
+
+                      <li><a href="about.html">About</a></li>
                       <li><a href="sermons.html">Sermons</a></li>
-                      <li class="has-children active">
+                      <li class="has-children">
                         <a href="department.html">Departments</a>
                         <ul class="dropdown arrow-top">
-                          <li><a href="department.html">God</a></li>
-                          <li><a href="department.html">Humanity</a></li>
-                          <li><a href="department.html">Salvation</a></li>
-                          
-                          </li>
+                          <li><a href="department.html">Social Welfare</a></li>
+                          <li><a href="department.html">Sunday School</a></li>
+                          <li><a href="department.html">Young Adults</a></li>
+                          <li><a href="department.html">Elders</a></li>
 
                         </ul>
                       </li>
                       <li><a href="events.html">Events</a></li>
-                      <li><a href="about.html">About</a></li>
                       <li><a href="contact.html">Contact</a></li>
                     </ul>
                   </div>
@@ -104,11 +108,13 @@
     
 
     <div class="site-block-half d-block d-lg-flex">
-        <div class="image bg-image order-2" style="background-image: url('./images/photo8.jpg');"></div>
+        <div class="image bg-image order-2" style="background-image: url('./images/photo8.jpg');">
+        
+        </div>
         <div class="text bg-info">
           <div class="section-heading text-left">
-            <h2 class="mb-5 te">Dolorem Vero Asperiores itaque</h2>
-            <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio autem dolorem vero asperiores itaque officia, assumenda sapiente iste, labore unde nulla facilis fugiat non iure nobis veritatis! Labore, corporis, velit.</p>
+            <h2 class="mb-5 te">Women's Fellowship</h2>
+            <p class="text-white">The women's fellowship is a group of young and elder ladies that come together and fellowship.</p>
             <p><a href="#" class="text-uppercase">Read More <span class="icon-arrow-right small"></span></a></p>
           </div>
         </div>
@@ -117,8 +123,8 @@
         <div class="image bg-image" style="background-image: url('./images/photo5.jpg');"></div>
         <div class="text bg-info">
           <div class="section-heading text-left">
-            <h2 class="mb-5">Dolorem Vero Asperiores itaque</h2>
-            <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio autem dolorem vero asperiores itaque officia, assumenda sapiente iste, labore unde nulla facilis fugiat non iure nobis veritatis! Labore, corporis, velit.</p>
+            <h2 class="mb-5">Social and Welfare</h2>
+            <p class="text-white">Social and welfare department is so energetic and able team to cater, plan for all church events .</p>
             <p><a href="#" class="text-uppercase">Read More <span class="icon-arrow-right small"></span></a></p>
           </div>
         </div>
@@ -128,7 +134,7 @@
         <div class="text bg-info">
           <div class="section-heading text-left">
             <h2 class="mb-5">Sunday-School</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio autem dolorem vero asperiores itaque officia, assumenda sapiente iste, labore unde nulla facilis fugiat non iure nobis veritatis! Labore, corporis, velit.</p>
+            <p>The sunday school department is lead by sister Bishop and Brother Allan.</p>
             <p><a href="#" class="text-uppercase">Read More <span class="icon-arrow-right small"></span></a></p>
           </div>
         </div>
@@ -139,7 +145,7 @@
 
     <div class="site-section block-14">
 
-      <div class="container">
+      <!-- <div class="container">
         
         <div class="row">
           <div class="col-md-6 mx-auto text-center mb-5 section-heading">
@@ -196,7 +202,7 @@
 
         </div>
 
-      </div>
+      </div> -->
       
     </div>
     
@@ -207,10 +213,10 @@
         <div class="row align-items-center">
           <div class="col-md-6">
             <span class="caption mb-3 bg-warning px-4">Upcoming Events</span>
-            <h2 class="text-white">Young Adult Meeting</h2>
+            <h2 class="text-white">Young Adult Seminar</h2>
           </div>
           <div class="col-md-6">
-            <span class="caption">The meeting will start in</span>
+            <span class="caption">The Seminar meeting will start in</span>
             <div id="date-countdown"></div>    
           </div>
         </div>
@@ -272,7 +278,7 @@
               <p>
               <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
               Copyright &copy; <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
-              <script>document.write(new Date().getFullYear());</script> All Rights Reserved | <i class="icon-heart text-primary" aria-hidden="true"></i> by <a href="#" target="_blank" >NHRM Media Crew</a>
+              <script>document.write(new Date().getFullYear());</script> All Rights Reserved | <i class="icon-church text-primary" aria-hidden="true"></i> by <a href="#" target="_blank" >NHRM Media Crew</a>
              
               </p>
             </div>
